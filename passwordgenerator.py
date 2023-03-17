@@ -38,5 +38,5 @@ def generate_password(min_length, numbers, special_characters):
     return password
 
 generated_password = generate_password(min_length, has_number, has_special)
-print("The generated password is: ", generated_password)
-print("Password length: ", len(generated_password))
+print("The generated password is:", generated_password)
+print("Generated password has", len(generated_password), "character(s)")
